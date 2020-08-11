@@ -1,0 +1,516 @@
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+body {
+
+    font-size: 110%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+}
+
+div.address-holder{
+ font-size: 1.5rem;
+}
+
+div.address-holder:hover{
+    background-color: beige;
+    padding: 2%;
+
+}
+
+
+
+#main-content-container-holder{
+background-color: whitesmoke;
+overflow: hidden;
+
+
+}
+
+
+#banner-item-price {
+  
+width : 100%;
+height: 80px;
+font-size: 1.25vw;
+padding: 5px;
+padding-top: 10px;
+position: relative;
+}
+
+
+
+
+
+.navbar{
+
+    margin-bottom: 0;
+}
+#header-nav{
+
+    background-color:whitesmoke;
+}
+
+#nav-list{
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#nav-list a:hover {
+    background: white;
+}
+
+#nav-list a span {
+    font-size: 2rem;
+    color: black;
+}
+
+#nav-list a span#nav-text{
+    font-size: 1.5rem;
+}
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+
+border: 1px solid black;
+
+}
+
+
+h2.Checkout {
+
+    
+    text-transform: uppercase;
+}
+
+#no-item-value{
+
+float: left;
+padding-right: 10px;
+padding-left: 10%;
+}
+
+#no-items {
+
+    float: left;
+    text-transform: uppercase;
+    
+}
+
+
+
+
+#no-retailer-value{
+
+    float: left;
+    padding-right: 10px;
+    }
+
+
+
+
+#retailer {
+
+    clear: left;
+    padding-left: 10%;
+    float: left;
+    text-transform: uppercase;
+}
+
+div.dropdown{
+
+    float: right;
+    padding-right: 20px;
+}
+
+#processing {
+
+    height: 50px;
+    padding-top: 20px;
+   
+}
+
+#content-holder {
+
+    background-color: white;
+    overflow: hidden;
+}
+
+p {
+
+    width : 90%; 
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 1.5vw;
+    
+}
+
+
+div.item-frame {
+
+    height: 100%;
+    width: 100%;
+}
+div.price-item{
+
+    bottom: 0;
+}
+
+
+/* #row1 {
+    /* border-top: 2px solid lightgray ; 
+}
+ */
+
+div.quantity-button {
+
+    text-align: center;
+}
+
+div.quantity-button > div.quantity-adjust{
+
+    height: 100%;
+    border-radius: 0;
+    
+}
+
+#quantity-value{
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.row {
+
+ 
+   border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+div.last-row{
+
+    margin-bottom: 0;
+    /* border-bottom: none; */
+}
+
+img.image{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.row img.image:hover {
+box-shadow: 0px 1px 5px 0px #cccccc;
+
+}
+p.item-description {
+
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 1.25vw;
+    text-transform: uppercase;
+
+}
+div.item-billing-info p{
+
+font-weight: 100;
+}
+
+div.row div.col-lg-6 p.item-description, div.row div.col-mg-6 p.item-description {
+    float: left;
+    
+    }
+
+#content-holder {
+
+    padding-top: 30px;
+}
+
+
+div.col-lg-12 img{
+
+    
+    float: left;
+    padding-bottom: 15px;
+    max-width: 190px;
+    max-height: 200px;
+}
+
+
+@media (max-width: 768px) {
+
+    p {
+
+       
+        font-size: 2vw;
+        
+    }
+
+    div.container h2.Checkout {
+
+        padding-left: 15px;
+    }
+
+}
+
+div.item-photo {
+
+    max-width: 190px;
+    max-height: 200px;
+}
+
+
+div.container-footer {
+
+  margin-top: 10px;
+    border-top: none;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin-top: 200px;
+    padding-top: 15px;
+    
+}
+    
+
+
+h2.grand-total {
+
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button.purchase-all{
+
+    float: right;
+
+   
+}
+
+#total-price-value {
+    font-size: 200px;
+}
+
+button.glyphicon-remove{
+
+    border: none;
+    background-color: white;
+    font-size: 1.5vw;
+}
+
+
+
+                                                        /* For large screen size only  */
+@media (min-width: 1200px) {
+
+    .col-lg-1, .col-lg-2,.col-lg-3, .col-lg-4, .col-lg-6, .col-lg-12, .col-lg-10
+
+    {
+    
+    float: left;  
+    border-top: 1px;
+    border-bottom: 1px;
+    }
+
+
+    .col-lg-1{
+        width: 8.33%;
+    }
+
+    .col-lg-2{
+
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+
+        width: 33%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-10{
+        width: 83.33%;
+
+    }
+
+    .col-lg-12{
+
+        width: 100%;
+    }
+
+
+
+    div.col-lg-6 > div.col-lg-6 {
+
+    border: none;
+    }
+
+  #main-content {
+
+
+    padding: 0;
+    
+  } 
+
+  
+  }
+
+
+  
+                                                            /* For medium screen size only */
+
+@media (max-width: 1199px) {
+
+    .col-mg-1, .col-mg-2,.col-mg-3, .col-mg-4, .col-mg-6, .col-mg-12 , .col-mg-10
+
+    {
+    
+    float: left;  
+    border-top: 1px;
+    border-bottom: 1px;
+    
+    }
+
+
+    .col-mg-1{
+        width: 8.33%;
+    }
+
+    .col-mg-2{
+
+        width: 16.66%;
+    }
+
+    .col-mg-3 {
+        width: 25%;
+    }
+
+    .col-mg-4 {
+
+        width: 33%;
+    }
+
+    .col-mg-6 {
+        width: 50%;
+    }
+
+    .col-mg-10{
+        width: 83.33%;
+
+    }
+
+    .col-mg-12{
+
+        width: 100%;
+    }
+
+
+
+    div.col-mg-6 > div.col-mg-6 {
+
+    border: none;
+    }
+
+    #main-content {
+        padding: 0;
+      } 
+      }
+
+
+
+                                                        /* For small screen size only */
+      @media (max-width: 768px) {
+
+        .col-s-1, .col-s-2,.col-s-3, .col-s-4, .col-s-6, .col-s-12 , .col-s-10
+    
+        {
+        
+        float: left;  
+        border-top: 1px;
+        border-bottom: 1px;
+        }
+    
+    
+        .col-s-1{
+            width: 8.33%;
+        }
+    
+        .col-s-2{
+    
+            width: 16.66%;
+        }
+    
+        .col-s-3 {
+            width: 25%;
+        }
+    
+        .col-s-4 {
+    
+            width: 33%;
+        }
+    
+        .col-s-6 {
+            width: 50%;
+        }
+
+        .col-s-10{
+            width: 83.33%;
+        }
+
+        .col-s-12{
+    
+            width: 100%;
+        }
+    
+    
+    
+        div.col-s-6 > div.col-s-6 {
+    
+        border: none;
+        }
+    
+      #main-content {
+    
+    
+        padding: 0;
+      } 
+    
+
+      #banner-item-price {
+  
+        font-size: 2vw;
+        
+        }
+
+        #nav-list a span#nav-text{
+           font-size: 1.25rem;
+           padding-left: 1%;
+       }
+        
+      
+      }
+    
+
+ 
